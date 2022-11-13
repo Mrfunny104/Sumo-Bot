@@ -1,7 +1,7 @@
 /********************************
-|                  |
-|          Pre-Setup      |
-|                 |
+|                               |
+|            Pre-Setup          |
+|                               |
 ********************************/
 int LPM = 10; //Left Positive Motor
 int LNM = 11; //Left Negative Motor
@@ -20,9 +20,9 @@ long durationR; //R = Rear
 int distanceR;
 
 /********************************
-|                 |
-|         Functions     |
-|                 |
+|                               |
+|           Functions           |
+|                               |
 ********************************/
 void motorControl(float Speed, int PWM, int D1, int D2) {
   if (Speed != 0) {
@@ -42,9 +42,9 @@ void motorControl(float Speed, int PWM, int D1, int D2) {
 }
 
 /********************************
-|                 |
-|         Setup       |
-|                 |
+|                               |
+|             Setup             |
+|                               |
 ********************************/
 void setup()
 {
@@ -68,9 +68,9 @@ void setup()
 }
 
 /********************************
-|                 |
-|         Loop        |
-|                 |
+|                               |
+|              Loop             |
+|                               |
 ********************************/
 void loop()
 {
@@ -142,9 +142,9 @@ void loop()
   }
     
   /********************************
-  |                   |
-  |           Debug       |
-  |                 |
+  |                               |
+  |              Debug            |
+  |                               |
   ********************************/
   
   /*int x;
